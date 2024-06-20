@@ -49,3 +49,12 @@ docker build -t hilderonny2024/ubuntu22cuda121-python3 ubuntu22cuda121-python3
 docker build -t hilderonny2024/ubuntu22cuda121-python3-argostranslate ubuntu22cuda121-python3-argostranslate
 docker build -t hilderonny2024/ubuntu22cuda121-python3-argostranslate-en-de ubuntu22cuda121-python3-argostranslate-en-de
 ```
+
+# Publihing
+
+```sh
+docker login
+docker push hilderonny2024/ubuntu22cuda121-python3
+docker push hilderonny2024/ubuntu22cuda121-python3-argostranslate
+docker push hilderonny2024/ubuntu22cuda121-python3-argostranslate-en-de
+```
